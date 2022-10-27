@@ -46,5 +46,5 @@ cd \path\to\new_virtual_env\Scripts
 pip install -r \path\to\requirements.txt
 7. Убедитесь, что путь к chromedriver.exe прописан в PATH
 8. Запустите тесты командой:
-pytest -v --tb=line  \path\to\test_yandex_search_form.py
+pytest -v --tb=line  \path\to\test_profil_setting_page.py
 9. Проверьте, что все тесты прошли успешно.
