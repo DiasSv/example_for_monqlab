@@ -1,0 +1,43 @@
+curl --http1.1 -X POST "https://userspaceformonq.acure.io/api/public/cl/v1/stream-data?streamKey=5ebed72f-7b13-4258-aadc-3e01e65c3f5c"\
+ --header 'Content-Type: application/json' \
+--data-raw '{
+    "id": "2745552",
+    "clock": 1667980063,
+    "acknowledged": 0,
+    "name": "Unavailble by ICMP ping curluk curluk",
+    "value": 0,
+    "severity": 1,
+    "trigger": {
+        "id": "21515",
+        "revealedDescription": "Unavailble Ьу ICMP ping",
+        "description": "Unavailble Ьу ICMP ping",
+        "revealedComments": "Last ten attempts returned timeout. Please check device connectivity.",
+        "comments": "Last ten attempts returned timeout. Please check device connectivity.",
+        "expression": "{29303}=0",
+        "lastChangeTime": 0,
+        "priority": 1,
+        "state": 0,
+        "status": 0,
+        "url": "",
+        "value": 0
+    },
+    "group": {
+        "id": 5,
+        "name": "Discovered hosts"
+    },
+    "host": {
+        "id": "10754",
+        "hostValue": "DemoHost",
+        "name": "DemoHost"
+    },
+    "itemslds": {
+        "0": 41315
+    },
+    "tags": {
+        "tag": "Application",
+        "value": "Status"
+    },
+    "zabblxVersion": 5.4,
+    "suppressed": 0
+}
+'
